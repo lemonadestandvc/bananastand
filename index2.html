@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Stand</title>
+    <style>
+        /* Modern Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* Sophisticated dark gradient */
+            background: radial-gradient(circle at center, #1a1c1e 0%, #0a0a0b 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* Premium system font stack */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 1.5rem;
+            letter-spacing: -0.02em;
+            opacity: 0.9;
+            /* Subtle animation for a premium feel */
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* The "Money" emphasis */
+        .highlight {
+            color: #FFD700; /* Subtle gold accent */
+            font-weight: 600;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 0.9; transform: translateY(0); }
+        }
+
+        /* Mobile optimization */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.2rem;
+                line-height: 1.5;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>There's always money in the <span class="highlight">banana stand</span>.</h1>
+    </div>
+
+</body>
+</html>
